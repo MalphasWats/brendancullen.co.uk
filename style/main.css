@@ -1,0 +1,113 @@
+body
+{
+	background: white;
+	color: black;
+	
+	font-family:Helvetica, Arial, sans-serif;
+}
+
+* {margin:0; padding:0; font-weight: normal;}
+
+#nav a
+{
+	color:black;
+	text-decoration: none;
+}
+
+#nav a:hover
+{
+	text-decoration: underline;
+}
+
+#nav a.selected
+{
+	font-weight: bold;
+}
+
+a
+{
+	color:#2aa198;
+}
+
+div#header h1
+{
+	background: url("banner2.jpg") no-repeat top center;
+	margin-top:10%;
+	text-align: center;
+	padding-top:420px;
+}
+
+div#smallheader h1
+{
+	background: url("banner.png") no-repeat top center;
+	margin-top:8px;
+	text-align: center;
+	padding-top:70px;
+}
+
+h2
+{
+	text-align: center;
+	
+	margin-top:30px;
+}
+
+ul#nav
+{
+	list-style-type: none;
+	display: block;
+	overflow: auto;
+	margin:30px auto;
+	width: 300px;
+	
+	border-top:1px solid black;
+	border-bottom:1px solid black;
+	padding:8px 0;
+}
+
+#nav li 
+{
+	/*float:left;*/
+	text-align: center;
+	/*width:33%;*/
+}
+
+div#content p
+{
+	width:400px;
+	margin: 12px auto;
+	text-align: justify;
+}
+
+div#gallery ul
+{
+	list-style-type: none;
+	
+	width:900px;
+	margin:24px auto;
+	text-align: center;
+	
+	overflow:auto;
+}
+
+div#gallery ul li
+{
+	float:left;
+	margin:0 6px 8px 6px;
+	font-size:10pt;
+	overflow: hidden;
+}
+
+div#gallery ul li img
+{
+	display: block;
+}
+
+div#gallery p
+{
+	width:550px;
+	margin:4px auto;
+	text-align: justify;
+	
+	font-size: 11pt;
+}
